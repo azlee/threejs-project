@@ -61,7 +61,7 @@ const firefliesMaterial = new THREE.ShaderMaterial({
 });
 
 debugObject.portalColorStart = "#b8f1ff";
-debugObject.portalColorEnd = "#8f69b5";
+debugObject.portalColorEnd = "#ad79e2";
 
 // Baked material
 const bakedMaterial = new THREE.MeshBasicMaterial({ map: bakedTexture });
@@ -188,7 +188,7 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 debugObject.clearColor = "#201919";
 renderer.setClearColor(debugObject.clearColor);
 debugObject.portalColorStart = "#b8f1ff";
-debugObject.portalColorEnd = "#8f69b5";
+debugObject.portalColorEnd = "#ad79e2";
 
 gui.addColor(debugObject, "clearColor").onChange(() => {
   renderer.setClearColor(debugObject.clearColor);
